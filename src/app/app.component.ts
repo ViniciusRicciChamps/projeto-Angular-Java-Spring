@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'projeto-com-npm';
+  title = 'projeto-Angular-Spring';
+
+  usuario = {login: "", senha: ""};
+
+ 
+
+  public login(){
+    console.log(this.usuario.login + " " + this.usuario.senha)
+  }
 }
